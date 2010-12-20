@@ -10,8 +10,12 @@
 
 @interface helloworldViewController : UIViewController {
 	UILabel *helloWorldLabel;
+	int animCount;
+	int state;
 }
 
 @property (nonatomic,assign) IBOutlet UILabel *helloWorldLabel;
+
+- (void)delayedRestoreScreen;
 @end
 
