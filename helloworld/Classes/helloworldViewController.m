@@ -84,7 +84,7 @@
 	[helloWorldLabel.layer addAnimation:trans forKey:@"ChangeTextKey"];
 	[self.view.layer addAnimation:trans2 forKey:@"Changebg"];
 	self.view.backgroundColor = [UIColor colorWithRed:.9 green:.6 blue:.5 alpha:1.0];
-	helloWorldLabel.text=@"Goodbye, cruel world";
+	helloWorldLabel.text=@"Goodbye, cruel world!";
 	[CATransaction commit];
 	[trans release];[trans2 release];
 }
